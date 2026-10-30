@@ -1,0 +1,28 @@
+# 密钥与数据库：绝对不能进仓库
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 各种工具的密钥落盘文件
+.chatlog_key.txt
+recovered_key.txt
+wx_dbkeys.txt
+dbkey*.txt
+*key*.hex
+keys/
+*.jsonl
+
+# 运行产物
+*.log
+__pycache__/
+*.py[cod]
+output/
+out/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
